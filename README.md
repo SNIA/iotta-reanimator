@@ -49,3 +49,6 @@ repositories, so there is normally no need to clone them separately.
   be cloned by the install scripts in Re-Animator LTTNG Tools or
   Re-Animator Strace, above.
 
+Persons who wish to contribute to any of the IOTTA repositories should
+either be a member of the IOTTA TWG, or should complete the simple
+[SNIA Contributor License](https://www.snia.org/CLA).
