@@ -5,6 +5,9 @@ comprise the Re-Animator tracing and replay tool.  This index
 repository contains no code, only links to other repositories that are
 part of Re-Animator.
 
+For more information on the Re-Animator project, please see our paper
+[Re-Animator: Versatile High-Fidelity Storage-System Tracing and Replaying](https://doi.org/10.1145/3383669.3398276).
+
 * [Re-Animator LTTNG Tools](http://github.com/SNIA/reanimator-lttng-tools) is
   the repository you should clone if you want to use the LTTNG-based
   implementation of Re-Animator.  This version imposes a low overhead
