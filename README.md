@@ -8,7 +8,7 @@ part of Re-Animator.
 For more information on the Re-Animator project, please see our paper
 [Re-Animator: Versatile High-Fidelity Storage-System Tracing and Replaying](https://doi.org/10.1145/3383669.3398276).
 
-* [Re-Animator LTTNG Tools](http://github.com/SNIA/reanimator-lttng-tools) is
+* [Re-Animator LTTNG](http://github.com/SNIA/reanimator-lttng) is
   the repository you should clone if you want to use the LTTNG-based
   implementation of Re-Animator.  This version imposes a low overhead
   on the traced program, but requires that you install kernel patches
@@ -28,7 +28,7 @@ repositories, so there is normally no need to clone them separately.
   automatically be cloned by the install scripts in LTTNG Tools,
   above.
 
-* [Re-Animator LTTNG](http://github.com/SNIA/reanimator-lttng)
+* [Re-Animator LTTNG Tools](http://github.com/SNIA/reanimator-lttng-tools)
   contains the command-line tool that invokes LTTNG.  It will
   automatically be cloned by the install scripts in LTTNG Tools,
   above.
