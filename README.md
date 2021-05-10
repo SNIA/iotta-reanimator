@@ -9,7 +9,11 @@ For more information on the Re-Animator project, please see our paper
 [Re-Animator: Versatile High-Fidelity Storage-System Tracing and Replaying](https://doi.org/10.1145/3383669.3398276).
 
 The two main parts of the Re-Animator project are the tracer and the
-replayer. The tracer collects system call trace data in the
+replayer.
+
+## Tracer
+
+The tracer collects system call trace data in the
 [Dataseries](https://github.com/dataseries/DataSeries/) format, while
 the replayer executes the system calls specified in a given trace.
 The tracer comes in two flavors:
@@ -24,11 +28,15 @@ The tracer comes in two flavors:
   repository you should clone if you want to use the strace-based
   implementation of Re-Animator. This version has higher overhead but
   requires no kernel changes or special privileges.
-  
+
+## Replayer
+
 The replayer is available in its own repository:
 
 * [Re-Animator Replayer](http://github.com/SNIA/reanimator-replayer) can
   replay system call traces taken in the Dataseries format.
+
+## Dependencies
 
 The following repositories are needed by Re-Animator, but will be
 automatically cloned by the install scripts in the above two
