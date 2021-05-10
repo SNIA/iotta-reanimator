@@ -25,7 +25,7 @@ The tracer comes in two flavors:
   implementation of Re-Animator. This version has higher overhead but
   requires no kernel changes or special privileges.
   
-The replayer is available in its own repository.
+The replayer is available in its own repository:
 
 * [Re-Animator Replayer](http://github.com/SNIA/reanimator-replayer) can
   replay system call traces taken in the Dataseries format.
